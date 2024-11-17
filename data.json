@@ -196,7 +196,18 @@
         "canJoinIn": "Immediate",
         "status": "Active",
         "lookingFor": "Internships, Full time, Part tim, Contract work, Freelance",
-        "experience": [1 year],
+        "experience": [
+ {
+                "company": "Network People Service Technology",
+                "yoe": 1,
+                "role": "Frontened Developer"
+            },
+            {
+                "company": "Patent Ninja",
+                "yoe": 1,
+                "role": "Frontend Developer"
+            }
+],
         "skills": [
             "JavaScript",
             "Typescript",
