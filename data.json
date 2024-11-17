@@ -1,168 +1,23 @@
 [
     {
-        "id": 1,
-        "name": "John Doe",
-        "email": "john@gmail.com",
-        "yoe": 5,
-        "role": "Software Engineer",
-        "resume": "https://www.google.com",
+        "id": "1",
+        "name": "Chehak Sharma",
+        "email": "chehak.sharma293@gmail.com",
+        "yoe": 0,
+        "role": "Frontend Developer",
+        "resume": "https://drive.google.com/file/d/1MhTWJrroNfVJ0BqaH1EL_4QqjMiwdv2d/view?usp=sharing",
         "canJoinIn": "1 month",
         "lookingFor": "Internship",
         "status": "Active",
-        "experience": [
-            {
-                "company": "ABC",
-                "yoe": 2,
-                "role": "Software Engineer"
-            },
-            {
-                "company": "XYZ",
-                "yoe": 3,
-                "role": "Software Engineer"
-            }
-        ],
+        "experience": "Not Applicable",
         "skills": [
-            "Java",
-            "Dart",
-            "Spring Boot",
-            "React"
-        ],
-        "expertise": [
-            "Java",
-            "Spring Boot"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Jane Smith",
-        "email": "jane.smith@example.com",
-        "yoe": 4,
-        "role": "Frontend Developer",
-        "resume": "https://example.com/jane-resume.pdf",
-        "canJoinIn": "2 weeks",
-        "status": "Active",
-        "lookingFor": "Full Timerole",
-        "experience": [
-            {
-                "company": "TechCorp",
-                "yoe": 1,
-                "role": "Junior Developer"
-            },
-            {
-                "company": "Innovatech",
-                "yoe": 3,
-                "role": "Frontend Developer"
-            }
-        ],
-        "skills": [
+            "HTML5",
+            "CSS3",
+            "React",
             "JavaScript",
-            "React",
-            "CSS",
-            "TypeScript"
-        ],
-        "expertise": [
-            "React",
-            "TypeScript"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Michael Johnson",
-        "email": "michael.j@example.com",
-        "yoe": 7,
-        "role": "Backend Engineer",
-        "lookingFor": "Internship/Full Time",
-        "resume": "https://example.com/michael-resume.pdf",
-        "canJoinIn": "Immediate",
-        "status": "Inactive",
-        "experience": [
-            {
-                "company": "DataDrive",
-                "yoe": 4,
-                "role": "Backend Engineer"
-            },
-            {
-                "company": "CloudBase",
-                "yoe": 3,
-                "role": "Senior Backend Engineer"
-            }
-        ],
-        "skills": [
-            "Python",
-            "Django",
-            "PostgreSQL",
-            "AWS"
-        ],
-        "expertise": [
-            "Django",
-            "AWS"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Emily Davis",
-        "email": "emily.davis@example.com",
-        "yoe": 3,
-        "role": "UI/UX Designer",
-        "lookingFor": "Internship/Full Time",
-        "resume": "https://example.com/emily-resume.pdf",
-        "canJoinIn": "1 month",
-        "status": "Active",
-        "experience": [
-            {
-                "company": "DesignStudio",
-                "yoe": 2,
-                "role": "Graphic Designer"
-            },
-            {
-                "company": "CreativeWorks",
-                "yoe": 1,
-                "role": "UI/UX Designer"
-            }
-        ],
-        "skills": [
-            "Figma",
-            "Adobe XD",
-            "Sketch",
-            "Illustrator"
-        ],
-        "expertise": [
-            "Figma",
-            "Adobe XD"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Robert Lee",
-        "lookingFor": "Internship/Full Time",
-        "email": "robert.lee@example.com",
-        "yoe": 6,
-        "role": "DevOps Engineer",
-        "resume": "https://example.com/robert-resume.pdf",
-        "canJoinIn": "3 weeks",
-        "status": "Active",
-        "experience": [
-            {
-                "company": "OpsTech",
-                "yoe": 3,
-                "role": "DevOps Engineer"
-            },
-            {
-                "company": "CloudNet",
-                "yoe": 3,
-                "role": "Senior DevOps Engineer"
-            }
-        ],
-        "skills": [
-            "Docker",
-            "Kubernetes",
-            "Terraform",
-            "AWS"
-        ],
-        "expertise": [
-            "Kubernetes",
-            "Terraform"
+            "Java",
+            "C++",
+            "Python"
         ]
     }
-    
 ]
