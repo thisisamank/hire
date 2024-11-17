@@ -163,6 +163,28 @@
             "Kubernetes",
             "Terraform"
         ]
+    },
+    {
+        "id": 6,
+        "name": "Tanishq Sethi",
+        "email": "tanishqsethi05@gmail.com",
+        "yoe": 0,
+        "role": "Frontend Developer",
+        "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
+        "canJoinIn": "Immediate",
+        "status": "Active",
+        "lookingFor": "Internship",
+        "experience": [],
+        "skills": [
+            "JavaScript",
+            "Java",
+            "React",
+            "CSS"
+        ],
+        "expertise": [
+            "JavaScript",
+            "React"
+        ]
     }
     
 ]
