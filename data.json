@@ -185,6 +185,44 @@
             "JavaScript",
             "React"
         ]
+    },
+        {
+        "id": 7,
+        "name": "Abhinav Verma",
+        "email": "abhinavverma2024@gmail.com",
+        "yoe": 0,
+        "role": "Frontend Developer",
+        "resume": "https://drive.google.com/file/d/1y_PGd8spY9CrAsK0mu8VpTHk1SR_ttDS/view?usp=sharing",
+        "canJoinIn": "Immediate",
+        "status": "Active",
+        "lookingFor": "Internships, Full time, Part tim, Contract work, Freelance",
+        "experience": [
+ {
+                "company": "Network People Service Technology",
+                "yoe": 1,
+                "role": "Frontened Developer"
+            },
+            {
+                "company": "Patent Ninja",
+                "yoe": 1,
+                "role": "Frontend Developer"
+        }
+],
+        "skills": [
+            "JavaScript",
+            "Typescript",
+            "ReactJS",
+            "NextJs",
+            "API integraion",
+            "Firebase",
+            "Git",
+            "OAuth"
+
+        ],
+        "expertise": [
+            "JavaScript",
+            "ReactJS"
+        ]
     }
     
 ]
