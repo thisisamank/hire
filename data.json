@@ -223,6 +223,44 @@
             "JavaScript",
             "ReactJS"
         ]
+    },
+    {
+        "id": 9,
+        "name": "Adarsh Singh",
+        "email": "singhadarsh9540@gmail.com",
+        "yoe": 1,
+        "role": "Frontend Developer",
+        "resume": "https://drive.google.com/file/d/1g6PqafiIOqBGA4eEWvOuGnT21raDiUR1/view",
+        "canJoinIn": "Immediate",
+        "lookingFor": "Internships, Full time, Part tim, Contract work, Freelance",
+        "status": "Active",
+        "experience": [
+            {
+                "company": "Slingshot",
+                "yoe": 1,
+                "role": "Frontend Developer"
+            },
+            {
+                "company": "Verifye.ai",
+                "yoe": 1,
+                "role": "Frontend Developer"
+            }
+        ],
+        "skills": [
+            "Next",
+            "React",
+            "Node",
+            "MonogoDB",
+            "PostgreSQL",
+            "TypeScript",
+            "CSS",
+            "JavaScript"
+        ],
+        "expertise": [
+            "React",
+            "Nextjs",
+            "TypeScript"
+        ]
     }
     
 ]
