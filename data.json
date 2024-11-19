@@ -223,6 +223,44 @@
             "JavaScript",
             "ReactJS"
         ]
+    },
+    {
+        "id": 8,
+        "name": "Prajjwal Sharma",
+        "email": "prajjwalbh25@gmail.com",
+        "yoe": 0.5,
+        "role": "FullStack Developer",
+        "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
+        "canJoinIn": "Immediate",
+        "lookingFor": "Internships, Full time, Part tim, Contract work, Freelance",
+        "status": "Active",
+        "experience": [
+            {
+                "company": "ConqrAI",
+                "yoe": 0.4,
+                "role": "Frontend Developer"
+            },
+            {
+                "company": "AequusPlay",
+                "yoe": 0.5,
+                "role": "FullStack Developer"
+            }
+        ],
+        "skills": [
+            "JavaScript",
+            "TypeScript",
+            "NextJs",
+            "React",
+            "CSS",
+            "ReactJS",
+            "Docker",
+            "Git",
+            "PostgreSQL"
+        ],
+        "expertise": [
+            "ReactJS",
+            "JavaScript"
+        ]
     }
     
 ]
