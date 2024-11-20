@@ -1,228 +1,225 @@
 [
-    {
-        "id": 1,
-        "name": "John Doe",
-        "email": "john@gmail.com",
-        "yoe": 5,
-        "role": "Software Engineer",
-        "resume": "https://www.google.com",
-        "canJoinIn": "1 month",
-        "lookingFor": "Internship",
-        "status": "Active",
-        "experience": [
-            {
-                "company": "ABC",
-                "yoe": 2,
-                "role": "Software Engineer"
-            },
-            {
-                "company": "XYZ",
-                "yoe": 3,
-                "role": "Software Engineer"
-            }
-        ],
-        "skills": [
-            "Java",
-            "Dart",
-            "Spring Boot",
-            "React"
-        ],
-        "expertise": [
-            "Java",
-            "Spring Boot"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Jane Smith",
-        "email": "jane.smith@example.com",
-        "yoe": 4,
-        "role": "Frontend Developer",
-        "resume": "https://example.com/jane-resume.pdf",
-        "canJoinIn": "2 weeks",
-        "status": "Active",
-        "lookingFor": "Full Timerole",
-        "experience": [
-            {
-                "company": "TechCorp",
-                "yoe": 1,
-                "role": "Junior Developer"
-            },
-            {
-                "company": "Innovatech",
-                "yoe": 3,
-                "role": "Frontend Developer"
-            }
-        ],
-        "skills": [
-            "JavaScript",
-            "React",
-            "CSS",
-            "TypeScript"
-        ],
-        "expertise": [
-            "React",
-            "TypeScript"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Michael Johnson",
-        "email": "michael.j@example.com",
-        "yoe": 7,
-        "role": "Backend Engineer",
-        "lookingFor": "Internship/Full Time",
-        "resume": "https://example.com/michael-resume.pdf",
-        "canJoinIn": "Immediate",
-        "status": "Inactive",
-        "experience": [
-            {
-                "company": "DataDrive",
-                "yoe": 4,
-                "role": "Backend Engineer"
-            },
-            {
-                "company": "CloudBase",
-                "yoe": 3,
-                "role": "Senior Backend Engineer"
-            }
-        ],
-        "skills": [
-            "Python",
-            "Django",
-            "PostgreSQL",
-            "AWS"
-        ],
-        "expertise": [
-            "Django",
-            "AWS"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Emily Davis",
-        "email": "emily.davis@example.com",
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@gmail.com",
+    "yoe": 5,
+    "role": "Software Engineer",
+    "resume": "https://www.google.com",
+    "canJoinIn": "1 month",
+    "lookingFor": "Internship",
+    "status": "Active",
+    "experience": [
+      {
+        "company": "ABC",
+        "yoe": 2,
+        "role": "Software Engineer"
+      },
+      {
+        "company": "XYZ",
         "yoe": 3,
-        "role": "UI/UX Designer",
-        "lookingFor": "Internship/Full Time",
-        "resume": "https://example.com/emily-resume.pdf",
-        "canJoinIn": "1 month",
-        "status": "Active",
-        "experience": [
-            {
-                "company": "DesignStudio",
-                "yoe": 2,
-                "role": "Graphic Designer"
-            },
-            {
-                "company": "CreativeWorks",
-                "yoe": 1,
-                "role": "UI/UX Designer"
-            }
-        ],
-        "skills": [
-            "Figma",
-            "Adobe XD",
-            "Sketch",
-            "Illustrator"
-        ],
-        "expertise": [
-            "Figma",
-            "Adobe XD"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Robert Lee",
-        "lookingFor": "Internship/Full Time",
-        "email": "robert.lee@example.com",
-        "yoe": 6,
-        "role": "DevOps Engineer",
-        "resume": "https://example.com/robert-resume.pdf",
-        "canJoinIn": "3 weeks",
-        "status": "Active",
-        "experience": [
-            {
-                "company": "OpsTech",
-                "yoe": 3,
-                "role": "DevOps Engineer"
-            },
-            {
-                "company": "CloudNet",
-                "yoe": 3,
-                "role": "Senior DevOps Engineer"
-            }
-        ],
-        "skills": [
-            "Docker",
-            "Kubernetes",
-            "Terraform",
-            "AWS"
-        ],
-        "expertise": [
-            "Kubernetes",
-            "Terraform"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Tanishq Sethi",
-        "email": "tanishqsethi05@gmail.com",
-        "yoe": 0,
-        "role": "Frontend Developer",
-        "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
-        "canJoinIn": "Immediate",
-        "status": "Active",
-        "lookingFor": "Internship",
-        "experience": [],
-        "skills": [
-            "JavaScript",
-            "Java",
-            "React",
-            "CSS"
-        ],
-        "expertise": [
-            "JavaScript",
-            "React"
-        ]
-    },
-        {
-        "id": 7,
-        "name": "Abhinav Verma",
-        "email": "abhinavverma2024@gmail.com",
-        "yoe": 0,
-        "role": "Frontend Developer",
-        "resume": "https://drive.google.com/file/d/1y_PGd8spY9CrAsK0mu8VpTHk1SR_ttDS/view?usp=sharing",
-        "canJoinIn": "Immediate",
-        "status": "Active",
-        "lookingFor": "Internships, Full time, Part tim, Contract work, Freelance",
-        "experience": [
- {
-                "company": "Network People Service Technology",
-                "yoe": 1,
-                "role": "Frontened Developer"
-            },
-            {
-                "company": "Patent Ninja",
-                "yoe": 1,
-                "role": "Frontend Developer"
-        }
-],
-        "skills": [
-            "JavaScript",
-            "Typescript",
-            "ReactJS",
-            "NextJs",
-            "API integraion",
-            "Firebase",
-            "Git",
-            "OAuth"
-
-        ],
-        "expertise": [
-            "JavaScript",
-            "ReactJS"
-        ]
-    }
-    
+        "role": "Software Engineer"
+      }
+    ],
+    "skills": ["Java", "Dart", "Spring Boot", "React"],
+    "expertise": ["Java", "Spring Boot"]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "yoe": 4,
+    "role": "Frontend Developer",
+    "resume": "https://example.com/jane-resume.pdf",
+    "canJoinIn": "2 weeks",
+    "status": "Active",
+    "lookingFor": "Full Timerole",
+    "experience": [
+      {
+        "company": "TechCorp",
+        "yoe": 1,
+        "role": "Junior Developer"
+      },
+      {
+        "company": "Innovatech",
+        "yoe": 3,
+        "role": "Frontend Developer"
+      }
+    ],
+    "skills": ["JavaScript", "React", "CSS", "TypeScript"],
+    "expertise": ["React", "TypeScript"]
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "email": "michael.j@example.com",
+    "yoe": 7,
+    "role": "Backend Engineer",
+    "lookingFor": "Internship/Full Time",
+    "resume": "https://example.com/michael-resume.pdf",
+    "canJoinIn": "Immediate",
+    "status": "Inactive",
+    "experience": [
+      {
+        "company": "DataDrive",
+        "yoe": 4,
+        "role": "Backend Engineer"
+      },
+      {
+        "company": "CloudBase",
+        "yoe": 3,
+        "role": "Senior Backend Engineer"
+      }
+    ],
+    "skills": ["Python", "Django", "PostgreSQL", "AWS"],
+    "expertise": ["Django", "AWS"]
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "email": "emily.davis@example.com",
+    "yoe": 3,
+    "role": "UI/UX Designer",
+    "lookingFor": "Internship/Full Time",
+    "resume": "https://example.com/emily-resume.pdf",
+    "canJoinIn": "1 month",
+    "status": "Active",
+    "experience": [
+      {
+        "company": "DesignStudio",
+        "yoe": 2,
+        "role": "Graphic Designer"
+      },
+      {
+        "company": "CreativeWorks",
+        "yoe": 1,
+        "role": "UI/UX Designer"
+      }
+    ],
+    "skills": ["Figma", "Adobe XD", "Sketch", "Illustrator"],
+    "expertise": ["Figma", "Adobe XD"]
+  },
+  {
+    "id": 5,
+    "name": "Robert Lee",
+    "lookingFor": "Internship/Full Time",
+    "email": "robert.lee@example.com",
+    "yoe": 6,
+    "role": "DevOps Engineer",
+    "resume": "https://example.com/robert-resume.pdf",
+    "canJoinIn": "3 weeks",
+    "status": "Active",
+    "experience": [
+      {
+        "company": "OpsTech",
+        "yoe": 3,
+        "role": "DevOps Engineer"
+      },
+      {
+        "company": "CloudNet",
+        "yoe": 3,
+        "role": "Senior DevOps Engineer"
+      }
+    ],
+    "skills": ["Docker", "Kubernetes", "Terraform", "AWS"],
+    "expertise": ["Kubernetes", "Terraform"]
+  },
+  {
+    "id": 6,
+    "name": "Tanishq Sethi",
+    "email": "tanishqsethi05@gmail.com",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internship",
+    "experience": [],
+    "skills": ["JavaScript", "Java", "React", "CSS"],
+    "expertise": ["JavaScript", "React"]
+  },
+  {
+    "id": 7,
+    "name": "Abhinav Verma",
+    "email": "abhinavverma2024@gmail.com",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "https://drive.google.com/file/d/1y_PGd8spY9CrAsK0mu8VpTHk1SR_ttDS/view?usp=sharing",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internships, Full time, Part tim, Contract work, Freelance",
+    "experience": [
+      {
+        "company": "Network People Service Technology",
+        "yoe": 1,
+        "role": "Frontened Developer"
+      },
+      {
+        "company": "Patent Ninja",
+        "yoe": 1,
+        "role": "Frontend Developer"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "Typescript",
+      "ReactJS",
+      "NextJs",
+      "API integraion",
+      "Firebase",
+      "Git",
+      "OAuth"
+    ],
+    "expertise": ["JavaScript", "ReactJS"]
+  },
+  {
+    "id": 10,
+    "name": "Yash Gupta",
+    "email": "thisisyashgpt@gmail.com",
+    "moe": 7,
+    "role": "Full Stack Developer",
+    "resume": "https://drive.google.com/file/d/1iCaNputEFRYpC2KxQ-RGMLlQtPhP-CAf/view?usp=sharing",
+    "canJoinIn": "2 weeks",
+    "status": "Active",
+    "lookingFor": "Internships, Full time, Part time, Contract work, Freelance",
+    "experience": [
+      {
+        "company": "Snipe",
+        "moe": 3.5,
+        "role": "SDE Intern"
+      },
+      {
+        "company": "Aequus",
+        "moe": 3,
+        "role": "Backend Engineer"
+      },
+      {
+        "company": "Invsto",
+        "moe": 4,
+        "role": "Frontend Engineering Intern"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "Typescript",
+      "ReactJS",
+      "NextJs",
+      "NodeJs",
+      "Java",
+      "REST API",
+      "API integraion",
+      "Firebase",
+      "AWS",
+      "Git",
+      "OAuth"
+    ],
+    "expertise": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NodeJS",
+      "NextJS",
+      "AWS"
+    ]
+  }
 ]
