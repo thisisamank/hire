@@ -89,6 +89,7 @@
           "OAuth"
         ],
         "expertise": ["JavaScript", "TypeScript", "ReactJS", "NodeJS", "NextJS"]
+<<<<<<< HEAD
       },
       {
         "id": 8,
@@ -128,4 +129,7 @@
             "JavaScript"
         ]
     }
+=======
+      }
+>>>>>>> 259a258 (fix: remove extra objects)
 ]
