@@ -223,6 +223,26 @@
             "JavaScript",
             "ReactJS"
         ]
+    },
+
+    {
+        "id": 11,
+        "name": "Chehak Sharma",
+        "email": "chehak.sharma293@gmail.com",
+        "yoe": 0,
+        "role": "Frontend Developer",
+        "resume": "https://drive.google.com/file/d/1MhTWJrroNfVJ0BqaH1EL_4QqjMiwdv2d/view?usp=drive_link",
+        "canJoinIn": "Immediate",
+        "status": "Active",
+        "lookingFor": "Internship",
+        "experience": [],
+        "skills": [
+            "JavaScript",
+            "Java",
+            "React",
+            "CSS"
+        ],
+        "expertise": []
     }
     
 ]
