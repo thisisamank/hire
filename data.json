@@ -107,57 +107,6 @@
     "expertise": ["JavaScript", "ReactJS"]
   },
   {
-    "id": 8,
-    "name": "Prajjwal Sharma",
-    "email": "prajjwalbh25@gmail.com",
-    "yoe": 0.5,
-    "role": "FullStack Developer",
-    "grad-year": "2026",
-    "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
-    "canJoinIn": "Immediate",
-    "lookingFor": "Internships, Full time, Part time, Contract work",
-    "status": "Active",
-    "experience": [
-      {
-        "company": "ConqrAI",
-        "yoe": 0.4,
-        "role": "Frontend Developer"
-      },
-      {
-        "company": "AequusPlay",
-        "yoe": 0.5,
-        "role": "FullStack Developer"
-      }
-    ],
-    "skills": [
-      "JavaScript",
-      "TypeScript",
-      "NextJs",
-      "React",
-      "CSS",
-      "ReactJS",
-      "Docker",
-      "Git",
-      "PostgreSQL"
-    ],
-    "expertise": ["ReactJS", "JavaScript"]
-  },
-  {
-    "id": 9,
-    "name": "Suvrat Mittal",
-    "email": "suvratmittal007@gmail.com",
-    "grad-year": "2027",
-    "yoe": 0,
-    "role": "Frontend Developer",
-    "resume": "https://docs.google.com/document/d/1idQNUuInV8q5M1O1fSLmEOO2v1LGlFZ2oT9NsOygtIM/edit?usp=sharing",
-    "canJoinIn": "Immediate",
-    "status": "Active",
-    "lookingFor": "Internship",
-    "experience": [],
-    "skills": ["JavaScript", "Java", "React", "CSS"],
-    "expertise": ["JavaScript", "React"]
-  },
-  {
     "id": 10,
     "name": "Yash Gupta",
     "email": "thisisyashgpt@gmail.com",
@@ -202,6 +151,42 @@
     "expertise": ["JavaScript", "TypeScript", "ReactJS", "NodeJS", "NextJS"]
   },
   {
+    "id": 8,
+    "name": "Prajjwal Sharma",
+    "email": "prajjwalbh25@gmail.com",
+    "yoe": 0.5,
+    "role": "FullStack Developer",
+    "grad-year": "2026",
+    "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
+    "canJoinIn": "Immediate",
+    "lookingFor": "Internships, Full time, Part time, Contract work",
+    "status": "Active",
+    "experience": [
+      {
+        "company": "ConqrAI",
+        "yoe": 0.4,
+        "role": "Frontend Developer"
+      },
+      {
+        "company": "AequusPlay",
+        "yoe": 0.5,
+        "role": "FullStack Developer"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "NextJs",
+      "React",
+      "CSS",
+      "ReactJS",
+      "Docker",
+      "Git",
+      "PostgreSQL"
+    ],
+    "expertise": ["ReactJS", "JavaScript"]
+  },
+  {
     "id": 11,
     "name": "Chehak Sharma",
     "email": "chehak.sharma293@gmail.com",
@@ -215,6 +200,21 @@
     "experience": [],
     "skills": ["JavaScript", "Java", "React", "CSS"],
     "expertise": []
+  },
+  {
+    "id": 9,
+    "name": "Suvrat Mittal",
+    "email": "suvratmittal007@gmail.com",
+    "grad-year": "2027",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "https://docs.google.com/document/d/1idQNUuInV8q5M1O1fSLmEOO2v1LGlFZ2oT9NsOygtIM/edit?usp=sharing",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internship",
+    "experience": [],
+    "skills": ["JavaScript", "Java", "React", "CSS"],
+    "expertise": ["JavaScript", "React"]
   },
   {
     "id": 12,
