@@ -17,13 +17,11 @@ function populateGradYearFilters(data) {
     gradYearFiltersContainer.appendChild(label);
   });
 
-  
   const gradYearFilters = document.querySelectorAll(".gradYearFilter");
   gradYearFilters.forEach((checkbox) =>
     checkbox.addEventListener("change", filterData)
   );
 
-  
   gradYearFilters.forEach((checkbox) => {
     if (checkbox.value === "2024") checkbox.checked = true;
   });
@@ -55,11 +53,31 @@ function renderData(data) {
     card.className =
       "p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col gap-4";
 
+    const hiringReadyTag =
+      item.hiringReady === true
+        ? `<span class="inline-flex items-center gap-1 bg-green-100 text-green-800 text-sm font-medium px-2 py-0.5 rounded-full">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414L9 13.414l4.707-4.707z" clip-rule="evenodd"/>
+            </svg>
+            Ready to Hire
+          </span>`
+        : `<span class="inline-flex items-center gap-1 bg-yellow-100 text-yellow-800 text-sm font-medium px-2 py-0.5 rounded-full">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M18 10c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-8-3a1 1 0 100 2 1 1 0 000-2zm1 3H9v5a1 1 0 102 0v-5z"/>
+          </svg>
+            In Training
+          </span>`;
+
     const header = `
-      <div>
-        <h2 class="text-xl font-semibold text-gray-800">${item.name}</h2>
-        <p class="text-sm text-gray-600"><strong>Role:</strong> ${item.role}</p>
-        <p class="text-sm text-gray-600"><strong>Email:</strong> <a href="mailto:${item.email}" class="text-indigo-600 hover:underline">${item.email}</a></p>
+      <div class="flex flex-wrap justify-between items-center">
+        <div class="flex-1 min-w-0">
+          <h2 class="text-xl font-semibold text-gray-800">${item.name}</h2>
+          <p class="text-sm text-gray-600"><strong>Role:</strong> ${item.role}</p>
+          <p class="text-sm text-gray-600"><strong>Email:</strong> <a href="mailto:${item.email}" class="text-indigo-600 hover:underline break-all">${item.email}</a></p>
+        </div>
+        <div class="mt-2 sm:mt-0">
+          ${hiringReadyTag}
+        </div>
       </div>
     `;
 
@@ -84,7 +102,7 @@ function renderData(data) {
           ${item.skills
             .map(
               (skill) =>
-                `<span class="bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${skill}</span>`
+                `<span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">${skill}</span>`
             )
             .join("")}
         </div>
@@ -98,7 +116,7 @@ function renderData(data) {
           ${item.expertise
             .map(
               (exp) =>
-                `<span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${exp}</span>`
+                `<span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">${exp}</span>`
             )
             .join("")}
         </div>
@@ -147,7 +165,6 @@ function filterData() {
   const status = statusFilter.value;
   const role = roleFilter.value;
 
-  
   const lookingForFilters = document.querySelectorAll(".lookingForFilter");
   const gradYearFilters = document.querySelectorAll(".gradYearFilter");
 
@@ -198,10 +215,8 @@ async function fetchData() {
     jsonData = await response.json();
     populateGradYearFilters(jsonData);
 
-    
     attachEventListeners();
 
-    
     filterData();
   } catch (error) {
     console.error("Error fetching JSON data:", error);
@@ -213,12 +228,10 @@ function attachEventListeners() {
   statusFilter.addEventListener("change", filterData);
   roleFilter.addEventListener("change", filterData);
 
-  
   const lookingForFilters = document.querySelectorAll(".lookingForFilter");
   lookingForFilters.forEach((checkbox) =>
     checkbox.addEventListener("change", filterData)
   );
 }
-
 
 fetchData();
