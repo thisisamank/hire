@@ -3,8 +3,30 @@ const searchInput = document.getElementById("search");
 const statusFilter = document.getElementById("statusFilter");
 const roleFilter = document.getElementById("roleFilter");
 const lookingForFilters = document.querySelectorAll(".lookingForFilter");
+const gradYearFiltersContainer = document.getElementById("gradYearFilters");
+
 
 let jsonData = [];
+
+function populateGradYearFilters(data) {
+  const gradYears = [...new Set(data.map((item) => item["grad-year"]))].sort();
+  gradYears.forEach((year) => {
+    const label = document.createElement("label");
+    label.className = "flex items-center gap-2 text-sm text-gray-600";
+    label.innerHTML = `
+      <input type="checkbox" value="${year}" class="gradYearFilter"> ${year}
+    `;
+    gradYearFiltersContainer.appendChild(label);
+  });
+
+  // Add event listeners to the dynamically added checkboxes
+  const gradYearFilters = document.querySelectorAll(".gradYearFilter");
+  gradYearFilters.forEach((checkbox) =>
+    checkbox.addEventListener("change", filterData)
+  );
+}
+
+
 const formatExperience = (item) => {
   if (typeof item.yoe !== "undefined" && item.yoe !== null) {
     return `${item.yoe} year${item.yoe !== 1 ? "s" : ""}`;
@@ -77,6 +99,12 @@ function filterData() {
     .filter((checkbox) => checkbox.checked)
     .map((checkbox) => checkbox.value);
 
+  const selectedGradYears = Array.from(
+    document.querySelectorAll(".gradYearFilter")
+  )
+    .filter((checkbox) => checkbox.checked)
+    .map((checkbox) => checkbox.value);
+
   const filteredData = jsonData.filter((item) => {
     const matchesSearch =
       item.name.toLowerCase().includes(searchQuery) ||
@@ -90,12 +118,19 @@ function filterData() {
             item.lookingFor.toLowerCase().includes(value.toLowerCase())
           )
         : true;
+    const matchesGradYear =
+      selectedGradYears.length > 0
+        ? selectedGradYears.includes(item["grad-year"])
+        : true;
 
-    return matchesSearch && matchesStatus && matchesRole && matchesLookingFor;
+    return (
+      matchesSearch && matchesStatus && matchesRole && matchesLookingFor && matchesGradYear
+    );
   });
 
   renderData(filteredData);
 }
+
 
 async function fetchData() {
   try {
@@ -104,17 +139,17 @@ async function fetchData() {
       throw new Error("Failed to fetch data");
     }
     jsonData = await response.json();
-    renderData(jsonData);
+    populateGradYearFilters(jsonData);
+
+    const gradYearFilters = document.querySelectorAll(".gradYearFilter");
+    gradYearFilters.forEach((checkbox) => {
+      if (checkbox.value === "2024") checkbox.checked = true;
+    });
+
+    filterData();
   } catch (error) {
     console.error("Error fetching JSON data:", error);
   }
 }
-
-searchInput.addEventListener("input", filterData);
-statusFilter.addEventListener("change", filterData);
-roleFilter.addEventListener("change", filterData);
-lookingForFilters.forEach((checkbox) =>
-  checkbox.addEventListener("change", filterData)
-);
 
 fetchData();
