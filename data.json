@@ -1,235 +1,254 @@
 [
-    {
-      "id": 6,
-      "name": "Tanishq Sethi",
-      "email": "tanishqsethi05@gmail.com",
-      "yoe": 0,
-      "grad-year": "2027",
-      "role": "Frontend Developer",
-      "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
-      "canJoinIn": "Immediate",
-      "status": "Active",
-      "lookingFor": "Internship",
-      "experience": [],
-      "skills": [
-        "JavaScript",
-        "Java",
-        "React",
-        "CSS"
-      ],
-      "expertise": [
-        "JavaScript",
-        "React"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Abhinav Verma",
-      "email": "abhinavverma2024@gmail.com",
-      "yoe": 0,
-      "grad-year": "2024",
-      "role": "Frontend Developer",
-      "resume": "https://drive.google.com/file/d/1y_PGd8spY9CrAsK0mu8VpTHk1SR_ttDS/view?usp=sharing",
-      "canJoinIn": "Immediate",
-      "status": "Active",
-      "lookingFor": "Internship, Full time, Part time, Contract work",
-      "experience": [
-        {
-          "company": "Network People Service Technology",
-          "yoe": 1,
-          "role": "Frontened Developer"
-        },
-        {
-          "company": "Patent Ninja",
-          "yoe": 1,
-          "role": "Frontend Developer"
-        }
-      ],
-      "skills": [
-        "JavaScript",
-        "Typescript",
-        "ReactJS",
-        "NextJs",
-        "API integraion",
-        "Firebase",
-        "Git",
-        "OAuth"
-      ],
-      "expertise": [
-        "JavaScript",
-        "ReactJS"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Yash Gupta",
-      "email": "thisisyashgpt@gmail.com",
-      "moe": 7,
-      "grad-year": "2026",
-      "role": "Full Stack Developer",
-      "resume": "https://drive.google.com/file/d/1iCaNputEFRYpC2KxQ-RGMLlQtPhP-CAf/view?usp=sharing",
-      "canJoinIn": "2 weeks",
-      "status": "Active",
-      "lookingFor": "Internships, Full time, Part time, Contract work",
-      "experience": [
-        {
-          "company": "Snipe",
-          "moe": 3.5,
-          "role": "SDE Intern"
-        },
-        {
-          "company": "Aequus",
-          "moe": 3,
-          "role": "Backend Engineer"
-        },
-        {
-          "company": "Invsto",
-          "moe": 4,
-          "role": "Frontend Engineering Intern"
-        }
-      ],
-      "skills": [
-        "JavaScript",
-        "Typescript",
-        "ReactJS",
-        "NextJs",
-        "NodeJs",
-        "Java",
-        "REST API",
-        "API integraion",
-        "Firebase",
-        "AWS",
-        "Git",
-        "OAuth"
-      ],
-      "expertise": [
-        "JavaScript",
-        "TypeScript",
-        "ReactJS",
-        "NodeJS",
-        "NextJS"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Prajjwal Sharma",
-      "email": "prajjwalbh25@gmail.com",
-      "moe": 8,
-      "role": "FullStack Developer",
-      "grad-year": "2026",
-      "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
-      "canJoinIn": "Immediate",
-      "lookingFor": "Internships, Full time, Part time, Contract work",
-      "status": "Active",
-      "experience": [
-        {
-          "company": "ConqrAI",
-          "moe": 4,
-          "role": "Frontend Developer"
-        },
-        {
-          "company": "AequusPlay",
-          "moe": 4,
-          "role": "FullStack Developer"
-        }
-      ],
-      "skills": [
-        "JavaScript",
-        "TypeScript",
-        "NextJs",
-        "React",
-        "CSS",
-        "ReactJS",
-        "Docker",
-        "Git",
-        "PostgreSQL"
-      ],
-      "expertise": [
-        "ReactJS",
-        "JavaScript"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Chehak Sharma",
-      "email": "chehak.sharma293@gmail.com",
-      "grad-year": "2027",
-      "yoe": 0,
-      "role": "Frontend Developer",
-      "resume": "https://drive.google.com/file/d/1MhTWJrroNfVJ0BqaH1EL_4QqjMiwdv2d/view?usp=drive_link",
-      "canJoinIn": "Immediate",
-      "status": "Active",
-      "lookingFor": "Internship",
-      "experience": [],
-      "skills": [
-        "JavaScript",
-        "Java",
-        "React",
-        "CSS"
-      ],
-      "expertise": []
-    },
-    {
-      "id": 9,
-      "name": "Suvrat Mittal",
-      "email": "suvratmittal007@gmail.com",
-      "grad-year": "2027",
-      "yoe": 0,
-      "role": "Frontend Developer",
-      "resume": "https://docs.google.com/document/d/1idQNUuInV8q5M1O1fSLmEOO2v1LGlFZ2oT9NsOygtIM/edit?usp=sharing",
-      "canJoinIn": "Immediate",
-      "status": "Active",
-      "lookingFor": "Internship",
-      "experience": [],
-      "skills": [
-        "JavaScript",
-        "Java",
-        "React",
-        "CSS"
-      ],
-      "expertise": [
-        "JavaScript",
-        "React"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Adarsh Singh",
-      "email": "singhadarsh9540@gmail.com",
-      "grad-year": "2026",
-      "yoe": 1,
-      "role": "Frontend Developer",
-      "resume": "https://drive.google.com/file/d/1g6PqafiIOqBGA4eEWvOuGnT21raDiUR1/view",
-      "canJoinIn": "Immediate",
-      "lookingFor": "Internships, Full time, Part time, Contract work",
-      "status": "Active",
-      "experience": [
-        {
-          "company": "Slingshot",
-          "yoe": 1,
-          "role": "Frontend Developer"
-        },
-        {
-          "company": "Verifye.ai",
-          "yoe": 1,
-          "role": "Frontend Developer"
-        }
-      ],
-      "skills": [
-        "Next",
-        "React",
-        "Node",
-        "MonogoDB",
-        "PostgreSQL",
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "expertise": [
-        "React",
-        "Nextjs",
-        "TypeScript"
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Ankit Pandey",
+    "email": "ankit.pndy2002@gmail.com",
+    "yoe": 1.5,
+    "grad-year": "2024",
+    "role": "Frontend Developer",
+    "resume": "https://drive.google.com/file/d/1fQXgSp-ZB_vgln0g_LWq6-dNCEgy-sQd/view",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "looking": "Full time, Part time, Contract work",
+    "experience": [
+      {
+        "company": "SlingshotAhead",
+        "yoe": "0.4",
+        "role": "SDE Intern"
+      },
+      {
+        "company": "Restaverse",
+        "yoe": "0.2",
+        "role": "Frontend Developer"
+      },
+      {
+        "company": "Hiretal",
+        "yoe": "0.6",
+        "role": "Full Stack Developer"
+      },
+      {
+        "company": "bluelearn",
+        "yoe": "0.4",
+        "role": "Frontend Developer"
+      },
+      {
+        "company": "boldd",
+        "yoe": "0.4",
+        "role": "Frontend Developer"
+      },
+      {
+        "company": "Finboard AI",
+        "yoe": "0.3",
+        "role": "Frontend Developer"
+      }
+    ],
+    "skills": [
+      "TypeScript",
+      "NextJs",
+      "Node",
+      "MongoDB",
+      "PostgreSQL",
+      "TypeScript",
+      "TailwindCSS",
+      "React Query",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "expertise": ["React", "Nextjs", "TypeScript"]
+  },
+  {
+    "id": 6,
+    "name": "Tanishq Sethi",
+    "email": "tanishqsethi05@gmail.com",
+    "yoe": 0,
+    "grad-year": "2027",
+    "role": "Frontend Developer",
+    "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internship",
+    "experience": [],
+    "skills": ["JavaScript", "Java", "React", "CSS"],
+    "expertise": ["JavaScript", "React"]
+  },
+  {
+    "id": 7,
+    "name": "Abhinav Verma",
+    "email": "abhinavverma2024@gmail.com",
+    "yoe": 0,
+    "grad-year": "2024",
+    "role": "Frontend Developer",
+    "resume": "https://drive.google.com/file/d/1y_PGd8spY9CrAsK0mu8VpTHk1SR_ttDS/view?usp=sharing",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internship, Full time, Part time, Contract work",
+    "experience": [
+      {
+        "company": "Network People Service Technology",
+        "yoe": 1,
+        "role": "Frontened Developer"
+      },
+      {
+        "company": "Patent Ninja",
+        "yoe": 1,
+        "role": "Frontend Developer"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "Typescript",
+      "ReactJS",
+      "NextJs",
+      "API integraion",
+      "Firebase",
+      "Git",
+      "OAuth"
+    ],
+    "expertise": ["JavaScript", "ReactJS"]
+  },
+  {
+    "id": 10,
+    "name": "Yash Gupta",
+    "email": "thisisyashgpt@gmail.com",
+    "moe": 7,
+    "grad-year": "2026",
+    "role": "Full Stack Developer",
+    "resume": "https://drive.google.com/file/d/1iCaNputEFRYpC2KxQ-RGMLlQtPhP-CAf/view?usp=sharing",
+    "canJoinIn": "2 weeks",
+    "status": "Active",
+    "lookingFor": "Internships, Full time, Part time, Contract work",
+    "experience": [
+      {
+        "company": "Snipe",
+        "moe": 3.5,
+        "role": "SDE Intern"
+      },
+      {
+        "company": "Aequus",
+        "moe": 3,
+        "role": "Backend Engineer"
+      },
+      {
+        "company": "Invsto",
+        "moe": 4,
+        "role": "Frontend Engineering Intern"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "Typescript",
+      "ReactJS",
+      "NextJs",
+      "NodeJs",
+      "Java",
+      "REST API",
+      "API integraion",
+      "Firebase",
+      "AWS",
+      "Git",
+      "OAuth"
+    ],
+    "expertise": ["JavaScript", "TypeScript", "ReactJS", "NodeJS", "NextJS"]
+  },
+  {
+    "id": 8,
+    "name": "Prajjwal Sharma",
+    "email": "prajjwalbh25@gmail.com",
+    "yoe": 0.5,
+    "role": "FullStack Developer",
+    "grad-year": "2026",
+    "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
+    "canJoinIn": "Immediate",
+    "lookingFor": "Internships, Full time, Part time, Contract work",
+    "status": "Active",
+    "experience": [
+      {
+        "company": "ConqrAI",
+        "yoe": 0.4,
+        "role": "Frontend Developer"
+      },
+      {
+        "company": "AequusPlay",
+        "yoe": 0.5,
+        "role": "FullStack Developer"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "NextJs",
+      "React",
+      "CSS",
+      "ReactJS",
+      "Docker",
+      "Git",
+      "PostgreSQL"
+    ],
+    "expertise": ["ReactJS", "JavaScript"]
+  },
+  {
+    "id": 11,
+    "name": "Chehak Sharma",
+    "email": "chehak.sharma293@gmail.com",
+    "grad-year": "2027",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "https://drive.google.com/file/d/1MhTWJrroNfVJ0BqaH1EL_4QqjMiwdv2d/view?usp=drive_link",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internship",
+    "experience": [],
+    "skills": ["JavaScript", "Java", "React", "CSS"],
+    "expertise": []
+  },
+  {
+    "id": 9,
+    "name": "Suvrat Mittal",
+    "email": "suvratmittal007@gmail.com",
+    "grad-year": "2027",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "https://docs.google.com/document/d/1idQNUuInV8q5M1O1fSLmEOO2v1LGlFZ2oT9NsOygtIM/edit?usp=sharing",
+    "canJoinIn": "Immediate",
+    "status": "Active",
+    "lookingFor": "Internship",
+    "experience": [],
+    "skills": ["JavaScript", "Java", "React", "CSS"],
+    "expertise": ["JavaScript", "React"]
+  },
+  {
+    "id": 12,
+    "name": "Adarsh Singh",
+    "email": "singhadarsh9540@gmail.com",
+    "grad-year": "2026",
+    "yoe": 1,
+    "role": "Frontend Developer",
+    "resume": "https://drive.google.com/file/d/1g6PqafiIOqBGA4eEWvOuGnT21raDiUR1/view",
+    "canJoinIn": "Immediate",
+    "lookingFor": "Internships, Full time, Part time, Contract work",
+    "status": "Active",
+    "experience": [
+      {
+        "company": "Slingshot",
+        "yoe": 1,
+        "role": "Frontend Developer"
+      },
+      {
+        "company": "Verifye.ai",
+        "yoe": 1,
+        "role": "Frontend Developer"
+      }
+    ],
+    "skills": [
+      "Next",
+      "React",
+      "Node",
+      "MonogoDB",
+      "PostgreSQL",
+      "TypeScript",
+      "CSS",
+      "JavaScript"
+    ],
+    "expertise": ["React", "Nextjs", "TypeScript"]
+  }
+]
