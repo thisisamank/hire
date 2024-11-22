@@ -2,9 +2,7 @@ const dataContainer = document.getElementById("dataContainer");
 const searchInput = document.getElementById("search");
 const statusFilter = document.getElementById("statusFilter");
 const roleFilter = document.getElementById("roleFilter");
-const lookingForFilters = document.querySelectorAll(".lookingForFilter");
 const gradYearFiltersContainer = document.getElementById("gradYearFilters");
-
 
 let jsonData = [];
 
@@ -19,13 +17,17 @@ function populateGradYearFilters(data) {
     gradYearFiltersContainer.appendChild(label);
   });
 
-  // Add event listeners to the dynamically added checkboxes
+  
   const gradYearFilters = document.querySelectorAll(".gradYearFilter");
   gradYearFilters.forEach((checkbox) =>
     checkbox.addEventListener("change", filterData)
   );
-}
 
+  
+  gradYearFilters.forEach((checkbox) => {
+    if (checkbox.value === "2024") checkbox.checked = true;
+  });
+}
 
 const formatExperience = (item) => {
   if (typeof item.yoe !== "undefined" && item.yoe !== null) {
@@ -33,75 +35,127 @@ const formatExperience = (item) => {
   } else if (typeof item.moe !== "undefined" && item.moe !== null) {
     return `${item.moe} month${item.moe !== 1 ? "s" : ""}`;
   }
-  return "Not Applicable";
+  return "Not specified";
 };
 
-const formatRoleExperienceItem = (exp) => {
-  const duration = exp.yoe
-    ? `${exp.yoe} year${exp.yoe !== 1 ? "s" : ""}`
-    : exp.moe
-    ? `${exp.moe} month${exp.moe !== 1 ? "s" : ""}`
-    : "Duration not specified";
-  return `<li>${exp.role} at ${exp.company} (${duration})</li>`;
-};
 function renderData(data) {
   dataContainer.innerHTML = "";
+
+  if (data.length === 0) {
+    dataContainer.innerHTML = `
+      <div class="col-span-full text-center text-gray-600">
+        <p>No candidates found. Try adjusting your filters.</p>
+      </div>
+    `;
+    return;
+  }
+
   data.forEach((item) => {
     const card = document.createElement("div");
     card.className =
-      "p-4 bg-white rounded-lg shadow-md flex flex-col gap-2 hover:shadow-lg transition-shadow";
+      "p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col gap-4";
+
+    const header = `
+      <div>
+        <h2 class="text-xl font-semibold text-gray-800">${item.name}</h2>
+        <p class="text-sm text-gray-600"><strong>Role:</strong> ${item.role}</p>
+        <p class="text-sm text-gray-600"><strong>Email:</strong> <a href="mailto:${item.email}" class="text-indigo-600 hover:underline">${item.email}</a></p>
+      </div>
+    `;
+
+    const mainInfo = `
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <p class="text-sm text-gray-600"><strong>Graduation Year:</strong> ${item["grad-year"] || 'N/A'}</p>
+          <p class="text-sm text-gray-600"><strong>Experience:</strong> ${formatExperience(item)}</p>
+          <p class="text-sm text-gray-600"><strong>Can Join In:</strong> ${item.canJoinIn}</p>
+        </div>
+        <div>
+          <p class="text-sm text-gray-600"><strong>Status:</strong> ${item.status}</p>
+          <p class="text-sm text-gray-600"><strong>Looking For:</strong> ${item.lookingFor}</p>
+        </div>
+      </div>
+    `;
+
+    const skills = `
+      <div>
+        <p class="text-sm text-gray-600 mb-2"><strong>Skills:</strong></p>
+        <div class="flex flex-wrap gap-2">
+          ${item.skills
+            .map(
+              (skill) =>
+                `<span class="bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${skill}</span>`
+            )
+            .join("")}
+        </div>
+      </div>
+    `;
+
+    const expertise = `
+      <div>
+        <p class="text-sm text-gray-600 mb-2"><strong>Expertise:</strong></p>
+        <div class="flex flex-wrap gap-2">
+          ${item.expertise
+            .map(
+              (exp) =>
+                `<span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">${exp}</span>`
+            )
+            .join("")}
+        </div>
+      </div>
+    `;
+
+    const experience = `
+      <details class="mt-4">
+        <summary class="text-sm text-gray-600 cursor-pointer"><strong>Work Experience:</strong></summary>
+        <ul class="list-disc list-inside mt-2">
+          ${
+            item.experience.length > 0
+              ? item.experience
+                  .map(
+                    (exp) =>
+                      `<li class="text-sm text-gray-600">
+                        ${exp.role} at ${exp.company} (${formatExperience(exp)})
+                      </li>`
+                  )
+                  .join("")
+              : `<li class="text-sm text-gray-600">No work experience listed.</li>`
+          }
+        </ul>
+      </details>
+    `;
+
+    const resumeLink = `
+      <a href="${item.resume}" target="_blank" class="mt-4 inline-block text-sm text-indigo-600 font-medium hover:underline">View Resume</a>
+    `;
 
     card.innerHTML = `
-            <h2 class="text-lg font-medium text-gray-800">${item.name}</h2>
-            <p class="text-sm text-gray-600"><strong>Email:</strong> ${
-              item.email
-            }</p>
-            <p class="text-sm text-gray-600"><strong>Experience:</strong> ${formatExperience(
-              item
-            )}</p>
-            <p class="text-sm text-gray-600"><strong>Role:</strong> ${
-              item.role
-            }</p>
-            <p class="text-sm text-gray-600"><strong>Status:</strong> ${
-              item.status
-            }</p>
-            <p class="text-sm text-gray-600"><strong>Looking For:</strong> ${
-              item.lookingFor
-            }</p>
-            <p class="text-sm text-gray-600"><strong>Can Join In:</strong> ${
-              item.canJoinIn
-            }</p>
-            <p class="text-sm text-gray-600"><strong>Skills:</strong> ${item.skills.join(
-              ", "
-            )}</p>
-            <p class="text-sm text-gray-600"><strong>Expertise:</strong> ${item.expertise.join(
-              ", "
-            )}</p>
-            <div class="text-sm text-gray-600">
-                <strong>Experience:</strong>
-                <ul class="list-disc list-inside">
-                    ${item.experience.map(formatRoleExperienceItem).join("")}
-                </ul>
-            </div>
-            <a href="${
-              item.resume
-            }" target="_blank" class="text-sm text-indigo-600 font-medium hover:underline">View Resume</a>
-        `;
+      ${header}
+      ${mainInfo}
+      ${skills}
+      ${expertise}
+      ${experience}
+      ${resumeLink}
+    `;
+
     dataContainer.appendChild(card);
   });
 }
+
 function filterData() {
   const searchQuery = searchInput.value.toLowerCase();
   const status = statusFilter.value;
   const role = roleFilter.value;
 
+  
+  const lookingForFilters = document.querySelectorAll(".lookingForFilter");
+  const gradYearFilters = document.querySelectorAll(".gradYearFilter");
+
   const selectedLookingFor = Array.from(lookingForFilters)
     .filter((checkbox) => checkbox.checked)
     .map((checkbox) => checkbox.value);
 
-  const selectedGradYears = Array.from(
-    document.querySelectorAll(".gradYearFilter")
-  )
+  const selectedGradYears = Array.from(gradYearFilters)
     .filter((checkbox) => checkbox.checked)
     .map((checkbox) => checkbox.value);
 
@@ -124,13 +178,16 @@ function filterData() {
         : true;
 
     return (
-      matchesSearch && matchesStatus && matchesRole && matchesLookingFor && matchesGradYear
+      matchesSearch &&
+      matchesStatus &&
+      matchesRole &&
+      matchesLookingFor &&
+      matchesGradYear
     );
   });
 
   renderData(filteredData);
 }
-
 
 async function fetchData() {
   try {
@@ -141,15 +198,27 @@ async function fetchData() {
     jsonData = await response.json();
     populateGradYearFilters(jsonData);
 
-    const gradYearFilters = document.querySelectorAll(".gradYearFilter");
-    gradYearFilters.forEach((checkbox) => {
-      if (checkbox.value === "2024") checkbox.checked = true;
-    });
+    
+    attachEventListeners();
 
+    
     filterData();
   } catch (error) {
     console.error("Error fetching JSON data:", error);
   }
 }
+
+function attachEventListeners() {
+  searchInput.addEventListener("input", filterData);
+  statusFilter.addEventListener("change", filterData);
+  roleFilter.addEventListener("change", filterData);
+
+  
+  const lookingForFilters = document.querySelectorAll(".lookingForFilter");
+  lookingForFilters.forEach((checkbox) =>
+    checkbox.addEventListener("change", filterData)
+  );
+}
+
 
 fetchData();
