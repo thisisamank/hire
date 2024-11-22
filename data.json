@@ -302,5 +302,28 @@
       "Html"
     ],
     "expertise": []
+  },
+  {
+    "id": 15,
+    "name": "Jiya",
+    "hiringReady": false,
+    "email": "jiyaachugh@gmail.com",
+    "grad-year": "2027",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "",
+    "canJoinIn": "Immediate",
+    "lookingFor": "Internships",
+    "status": "Active",
+    "experience": [
+     
+    ],
+    "skills": [
+      "CSS",
+      "React",
+      "JavaScript",
+      "Java"
+    ],
+    "expertise": ["React","JavaScript"]
   }
 ]
