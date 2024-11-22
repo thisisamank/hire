@@ -114,7 +114,7 @@
       "id": 8,
       "name": "Prajjwal Sharma",
       "email": "prajjwalbh25@gmail.com",
-      "yoe": 0.5,
+      "moe": 8,
       "role": "FullStack Developer",
       "grad-year": "2026",
       "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
@@ -124,12 +124,12 @@
       "experience": [
         {
           "company": "ConqrAI",
-          "yoe": 0.4,
+          "moe": 4,
           "role": "Frontend Developer"
         },
         {
           "company": "AequusPlay",
-          "yoe": 0.5,
+          "moe": 4,
           "role": "FullStack Developer"
         }
       ],
