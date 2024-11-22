@@ -197,7 +197,7 @@
       "name": "Adarsh Singh",
       "email": "singhadarsh9540@gmail.com",
       "grad-year": "2026",
-      "yoe": 1,
+      "moe": 4,
       "role": "Frontend Developer",
       "resume": "https://drive.google.com/file/d/1g6PqafiIOqBGA4eEWvOuGnT21raDiUR1/view",
       "canJoinIn": "Immediate",
@@ -206,12 +206,12 @@
       "experience": [
         {
           "company": "Slingshot",
-          "yoe": 1,
+          "moe": 3,
           "role": "Frontend Developer"
         },
         {
           "company": "Verifye.ai",
-          "yoe": 1,
+          "moe": 1,
           "role": "Frontend Developer"
         }
       ],
