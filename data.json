@@ -13,32 +13,32 @@
     "experience": [
       {
         "company": "SlingshotAhead",
-        "moe": "0.4",
+        "moe": "4",
         "role": "SDE Intern"
       },
       {
         "company": "Restaverse",
-        "moe": "0.2",
+        "moe": "2",
         "role": "Frontend Developer"
       },
       {
         "company": "Hiretal",
-        "moe": "0.6",
+        "moe": "6",
         "role": "Full Stack Developer"
       },
       {
         "company": "bluelearn",
-        "moe": "0.4",
+        "moe": "4",
         "role": "Frontend Developer"
       },
       {
         "company": "boldd",
-        "moe": "0.4",
+        "moe": "4",
         "role": "Frontend Developer"
       },
       {
         "company": "Finboard AI",
-        "moe": "0.3",
+        "moe": "3",
         "role": "Frontend Developer"
       }
     ],
@@ -75,7 +75,7 @@
     "id": 7,
     "name": "Abhinav Verma",
     "email": "abhinavverma2024@gmail.com",
-    "yoe": 0,
+    "moe": 13,
     "grad-year": "2024",
     "role": "Frontend Developer",
     "resume": "https://drive.google.com/file/d/1y_PGd8spY9CrAsK0mu8VpTHk1SR_ttDS/view?usp=sharing",
@@ -85,12 +85,12 @@
     "experience": [
       {
         "company": "Network People Service Technology",
-        "yoe": 1,
+        "moe": 3,
         "role": "Frontened Developer"
       },
       {
         "company": "Patent Ninja",
-        "yoe": 1,
+        "moe": 10,
         "role": "Frontend Developer"
       }
     ],
@@ -110,7 +110,7 @@
     "id": 10,
     "name": "Yash Gupta",
     "email": "thisisyashgpt@gmail.com",
-    "moe": 7,
+    "moe":10,
     "grad-year": "2026",
     "role": "Full Stack Developer",
     "resume": "https://drive.google.com/file/d/1iCaNputEFRYpC2KxQ-RGMLlQtPhP-CAf/view?usp=sharing",
@@ -154,7 +154,7 @@
     "id": 8,
     "name": "Prajjwal Sharma",
     "email": "prajjwalbh25@gmail.com",
-    "yoe": 0.5,
+    "moe": 8,
     "role": "FullStack Developer",
     "grad-year": "2026",
     "resume": "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view",
@@ -164,12 +164,12 @@
     "experience": [
       {
         "company": "ConqrAI",
-        "yoe": 0.4,
+        "moe": 4,
         "role": "Frontend Developer"
       },
       {
         "company": "AequusPlay",
-        "yoe": 0.5,
+        "moe": 4,
         "role": "FullStack Developer"
       }
     ],
@@ -221,7 +221,7 @@
     "name": "Adarsh Singh",
     "email": "singhadarsh9540@gmail.com",
     "grad-year": "2026",
-    "yoe": 1,
+    "moe": 4,
     "role": "Frontend Developer",
     "resume": "https://drive.google.com/file/d/1g6PqafiIOqBGA4eEWvOuGnT21raDiUR1/view",
     "canJoinIn": "Immediate",
@@ -230,12 +230,12 @@
     "experience": [
       {
         "company": "Slingshot",
-        "yoe": 1,
+        "moe": 3,
         "role": "Frontend Developer"
       },
       {
         "company": "Verifye.ai",
-        "yoe": 1,
+        "moe": 1,
         "role": "Frontend Developer"
       }
     ],
