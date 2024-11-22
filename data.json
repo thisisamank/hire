@@ -233,7 +233,7 @@
     }
 
     {
-      "id": 13,
+      "id": 14,
       "name": "Jai Ravi",
       "email": "jairavi5678@gmail.com",
       "grad-year": "2025",
@@ -241,7 +241,7 @@
       "role": "Frontend Developer",
       "resume": "https://drive.google.com/file/d/1ffgsFBJBN3B8XlsXY-U-0mvwmQHAj4zj/view?usp=sharing",
       "canJoinIn": "Immediate",
-      "lookingFor": "Internships, Full time, Part time, Contract work",
+      "lookingFor": "Internships",
       "status": "Active",
       "experience": [],
       "skills": [
