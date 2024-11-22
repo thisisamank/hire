@@ -250,5 +250,28 @@
       "JavaScript"
     ],
     "expertise": ["React", "Nextjs", "TypeScript"]
+  },
+  {
+    "id": 13,
+    "name": "Chandrashekher Prasad",
+    "email": "cpsaw999041@gmail.com",
+    "grad-year": "2027",
+    "yoe": 0,
+    "role": "Frontend Developer",
+    "resume": "https://drive.google.com/file/d/1bpricUr-svmdwIU-elsHPP5H3PUrFZS7/view?usp=sharing",
+    "canJoinIn": "Immediate",
+    "lookingFor": "Internships",
+    "status": "Active",
+    "experience": [
+     
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "CSS",
+      "TailwindCSS",
+      "Java"
+    ],
+    "expertise": ["React","JavaScript"]
   }
 ]
