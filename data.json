@@ -61,17 +61,31 @@
     "id": 6,
     "name": "Tanishq Sethi",
     "email": "tanishqsethi05@gmail.com",
-    "hiringReady": false,
+    "hiringReady": true,
     "yoe": 0,
     "grad-year": "2027",
     "role": "Frontend Developer",
     "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
     "canJoinIn": "Immediate",
     "status": "Active",
-    "lookingFor": "Internship",
+    "lookingFor": "Internship, Part-Time, Contract Work"
     "experience": [],
-    "skills": ["JavaScript", "Java", "React", "CSS"],
-    "expertise": ["JavaScript", "React"]
+    "skills": [
+      "JavaScript",
+      "Typescript",
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDb",
+      "Java",
+      "REST API",
+      "Firebase",
+      "Git",
+      "TailwindCSS",
+      "ShadCn Ui",
+      "Magic Ui"
+    ],
+    "expertise": ["ReactJs", "JavaScript", "NodeJs"]
   },
   {
     "id": 7,
@@ -196,7 +210,7 @@
     "name": "Chehak Sharma",
     "email": "chehak.sharma293@gmail.com",
     "grad-year": "2027",
-    "hiringReady": false,
+    "hiringReady": true,
     "yoe": 0,
     "role": "Frontend Developer",
     "resume": "https://drive.google.com/file/d/1MhTWJrroNfVJ0BqaH1EL_4QqjMiwdv2d/view?usp=drive_link",
@@ -204,24 +218,46 @@
     "status": "Active",
     "lookingFor": "Internship",
     "experience": [],
-    "skills": ["JavaScript", "Java", "React", "CSS"],
-    "expertise": []
+    "skills": [
+      "JavaScript", 
+      "Java",
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "REST API",
+      "Firebase",
+      "Git",
+      "CSS"
+    ],
+    "expertise": ["JavaScript", "ReactJs", "NodeJs"]
   },
   {
     "id": 9,
     "name": "Suvrat Mittal",
     "email": "suvratmittal007@gmail.com",
     "grad-year": "2027",
-    "hiringReady": false,
+    "hiringReady": true,
     "yoe": 0,
     "role": "Frontend Developer",
-    "resume": "https://docs.google.com/document/d/1idQNUuInV8q5M1O1fSLmEOO2v1LGlFZ2oT9NsOygtIM/edit?usp=sharing",
+    "resume": "https://drive.google.com/file/d/1yGdpxaNCAj_G7BjVlSncMFwz2EgpVmVp/view?usp=sharing",
     "canJoinIn": "Immediate",
     "status": "Active",
     "lookingFor": "Internship",
     "experience": [],
-    "skills": ["JavaScript", "Java", "React", "CSS"],
-    "expertise": ["JavaScript", "React"]
+    "skills": [
+      "JavaScript", 
+      "Java", 
+      "ReactJs", 
+      "CSS", 
+      "NodeJs",
+      "ExpressJs", 
+      "MongoDB", 
+      "REST API",
+      "Firebase", 
+      "Git"
+    ],
+    "expertise": ["JavaScript", "ReactJs", "TailwindCSS", "MongoDB"]
   },
   {
     "id": 12,
@@ -262,12 +298,12 @@
   {
     "id": 13,
     "name": "Chandrashekher Prasad",
-    "hiringReady": false,
+    "hiringReady": true,
     "email": "cpsaw999041@gmail.com",
     "grad-year": "2027",
     "yoe": 0,
     "role": "Frontend Developer",
-    "resume": "https://drive.google.com/file/d/1bpricUr-svmdwIU-elsHPP5H3PUrFZS7/view?usp=sharing",
+    "resume": "https://drive.google.com/file/d/1-ov6Ar4V91viWIeZuVJcx7dCjfR5UCB5/view?usp=drivesdk",
     "canJoinIn": "Immediate",
     "lookingFor": "Internships",
     "status": "Active",
@@ -276,12 +312,16 @@
     ],
     "skills": [
       "JavaScript",
-      "React",
+      "ReactJs",
       "CSS",
       "TailwindCSS",
-      "Java"
+      "Java",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "REST API"
     ],
-    "expertise": ["React","JavaScript"]
+    "expertise": ["ReactJs","JavaScript","TailwindCSS"]
   },
   {
     "id": 14,
@@ -302,28 +342,5 @@
       "Html"
     ],
     "expertise": []
-  },
-  {
-    "id": 15,
-    "name": "Jiya",
-    "hiringReady": false,
-    "email": "jiyaachugh@gmail.com",
-    "grad-year": "2027",
-    "yoe": 0,
-    "role": "Frontend Developer",
-    "resume": "https://drive.google.com/file/d/1kF4ABBup-OGRmPTfdXDaSVKL_1xlrbjz/view?usp=sharing",
-    "canJoinIn": "Immediate",
-    "lookingFor": "Internships",
-    "status": "Active",
-    "experience": [
-     
-    ],
-    "skills": [
-      "CSS",
-      "React",
-      "JavaScript",
-      "Java"
-    ],
-    "expertise": ["React","JavaScript"]
   }
 ]
