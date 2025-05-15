@@ -221,16 +221,16 @@
     "skills": [
       "JavaScript", 
       "Java",
-      "React.js",
-      "Node.js",
-      "Express.js",
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
       "MongoDB",
       "REST API",
       "Firebase",
       "Git",
       "CSS"
     ],
-    "expertise": ["JavaScript", "React.js", "Node.js"]
+    "expertise": ["JavaScript", "ReactJs", "NodeJs"]
   },
   {
     "id": 9,
@@ -312,16 +312,16 @@
     ],
     "skills": [
       "JavaScript",
-      "React",
+      "ReactJs",
       "CSS",
       "TailwindCSS",
       "Java",
-      "Node.js",
-      "Express.js",
+      "NodeJs",
+      "ExpressJs",
       "MongoDB",
       "REST API"
     ],
-    "expertise": ["React","JavaScript","TailwindCSS"]
+    "expertise": ["ReactJs","JavaScript","TailwindCSS"]
   },
   {
     "id": 14,
