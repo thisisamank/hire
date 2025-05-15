@@ -68,7 +68,7 @@
     "resume": "https://docs.google.com/document/d/10M3aMD443VUMO3qyScs54o6BDZ3Kp5y4/edit?usp=sharing&ouid=104947448407113642183&rtpof=true&sd=true",
     "canJoinIn": "Immediate",
     "status": "Active",
-    "lookingFor": "Internship, Part-Time, Contract Work"
+    "lookingFor": "Internship, Part-Time, Contract Work",
     "experience": [],
     "skills": [
       "JavaScript",
@@ -257,7 +257,7 @@
       "Firebase", 
       "Git"
     ],
-    "expertise": ["JavaScript", "ReactJs", "TailwindCSS", "MongoDB"]
+    "expertise": ["JavaScript","ReactJs", "TailwindCSS", "MongoDB"]
   },
   {
     "id": 12,
